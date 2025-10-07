@@ -41,6 +41,7 @@ helloapi/
 │       └─ application.properties
 └─ test/...
 
+
 **4. pom.xml — what it is:**
 
 pom.xml tells Maven what the project is, which dependencies it needs and how to build it.
@@ -85,21 +86,21 @@ Open HelloApiApplication.java and click the green ▶ icon next to main().
 Open Browser: http://localhost:8080/hello
 
 
-**Useful Commands:**
+#Useful Commands:
 
-# check Java & Maven
+**check Java & Maven**
 java -version
 mvn -v
 
-# build and run
+**build and run**
 mvn clean package
 mvn spring-boot:run
 
-# run jar
+**run jar**
 java -jar target/helloapi-1.0.0.jar
 
-# force update dependencies
+**force update dependencies**
 mvn clean install -U
 
-# run tests
+**run tests**
 mvn test
